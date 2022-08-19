@@ -1,36 +1,48 @@
 <?xml version="1.0"?>
 <Entities>
+	<SilverKnight_Spawner>
+		<Instance_0>
+			<Transform x="845.000000" y="436.000000" />
+			<Render renderLayerPrecedence="60" />
+		</Instance_0>
+	</SilverKnight_Spawner>
+	<Bommer_Spawner>
+		<Instance_0>
+			<Transform x="715.000000" y="508.000000" />
+			<Render renderLayerPrecedence="61" />
+		</Instance_0>
+	</Bommer_Spawner>
 	<SpriteThing>
 		<Instance_0>
-			<Transform x="1374.166748" y="-141.833282" />
+			<Transform x="1374.666748" y="-141.333282" />
 			<Render renderLayerPrecedence="0" />
 		</Instance_0>
 		<Instance_1>
-			<Transform x="1556.501221" y="-98.166664" />
+			<Transform x="1556.501221" y="-98.666664" />
 			<Render renderLayerPrecedence="1" />
 		</Instance_1>
 		<Instance_2>
-			<Transform x="972.666809" y="6.666668" />
+			<Transform x="973.166809" y="6.666668" />
 			<Render renderLayerPrecedence="2" />
 		</Instance_2>
 		<Instance_3>
-			<Transform x="557.166748" y="-103.333382" />
+			<Transform x="557.166748" y="-103.833382" />
 			<Render renderLayerPrecedence="3" />
 		</Instance_3>
 		<Instance_4>
-			<Transform x="1338.499390" y="260.999847" />
+			<Transform x="1337.999390" y="260.499847" />
 			<Render renderLayerPrecedence="4" />
 		</Instance_4>
 		<Instance_5>
-			<Transform x="1998.500732" y="370.833435" />
+			<Transform x="1998.000732" y="371.333435" />
 			<Render renderLayerPrecedence="5" />
 		</Instance_5>
 		<Instance_6>
-			<Transform x="1737.166870" y="138.166687" />
+			<Transform x="1737.166870" y="137.666687" />
 			<Render renderLayerPrecedence="6" />
 		</Instance_6>
 		<Instance_7>
-			<Transform x="1727.167236" y="-35.833328" />
+			<Transform x="1727.167236" y="-36.333328" />
 			<Render renderLayerPrecedence="7" />
 		</Instance_7>
 		<Instance_8>
@@ -38,28 +50,34 @@
 			<Render renderLayerPrecedence="8" />
 		</Instance_8>
 		<Instance_9>
-			<Transform x="1241.833374" y="55.666676" />
+			<Transform x="1242.333374" y="55.166676" />
 			<Render renderLayerPrecedence="9" />
 		</Instance_9>
 		<Instance_10>
-			<Transform x="1104.166870" y="-188.499985" />
+			<Transform x="1104.166870" y="-187.999985" />
 			<Render renderLayerPrecedence="10" />
 		</Instance_10>
 		<Instance_11>
-			<Transform x="1229.500000" y="-109.000031" />
+			<Transform x="1229.000000" y="-109.000031" />
 			<Render renderLayerPrecedence="11" />
 		</Instance_11>
 		<Instance_12>
-			<Transform x="1501.999756" y="-217.666611" />
+			<Transform x="1501.499756" y="-217.166611" />
 			<Render renderLayerPrecedence="12" />
 		</Instance_12>
 	</SpriteThing>
 	<Stones>
 		<Instance_0>
 			<Transform x="1216.000000" y="-256.000000" />
-			<Render renderLayerPrecedence="16" />
+			<Render renderLayerPrecedence="13" />
 		</Instance_0>
 	</Stones>
+	<PersonPlacement>
+		<Instance_0>
+			<Transform x="829.000000" y="-363.000000" />
+			<Render renderLayerPrecedence="62" />
+		</Instance_0>
+	</PersonPlacement>
 	<Rock1>
 		<Instance_0>
 			<Transform x="587.000000" y="119.000000" />
@@ -71,91 +89,91 @@
 		</Instance_1>
 		<Instance_2>
 			<Transform x="406.000000" y="-331.000000" />
-			<Render renderLayerPrecedence="13" />
+			<Render renderLayerPrecedence="14" />
 		</Instance_2>
 		<Instance_3>
 			<Transform x="622.000000" y="-326.000000" />
-			<Render renderLayerPrecedence="14" />
+			<Render renderLayerPrecedence="15" />
 		</Instance_3>
 		<Instance_4>
 			<Transform x="950.000000" y="-334.000000" />
-			<Render renderLayerPrecedence="15" />
+			<Render renderLayerPrecedence="16" />
 		</Instance_4>
 		<Instance_5>
 			<Transform x="870.000000" y="-198.000000" />
-			<Render renderLayerPrecedence="38" />
+			<Render renderLayerPrecedence="19" />
 		</Instance_5>
 		<Instance_6>
 			<Transform x="613.000000" y="-200.000000" />
-			<Render renderLayerPrecedence="39" />
+			<Render renderLayerPrecedence="20" />
 		</Instance_6>
 		<Instance_7>
 			<Transform x="432.000000" y="-138.000000" />
-			<Render renderLayerPrecedence="40" />
+			<Render renderLayerPrecedence="21" />
 		</Instance_7>
 		<Instance_8>
 			<Transform x="329.000000" y="-32.000000" />
-			<Render renderLayerPrecedence="41" />
+			<Render renderLayerPrecedence="22" />
 		</Instance_8>
 		<Instance_9>
 			<Transform x="749.000000" y="-76.000000" />
-			<Render renderLayerPrecedence="42" />
+			<Render renderLayerPrecedence="23" />
 		</Instance_9>
 		<Instance_10>
 			<Transform x="971.000000" y="-13.000000" />
-			<Render renderLayerPrecedence="43" />
+			<Render renderLayerPrecedence="24" />
 		</Instance_10>
 		<Instance_11>
 			<Transform x="1108.000000" y="-287.000000" />
-			<Render renderLayerPrecedence="44" />
+			<Render renderLayerPrecedence="25" />
 		</Instance_11>
 		<Instance_12>
 			<Transform x="1069.000000" y="-141.000000" />
-			<Render renderLayerPrecedence="45" />
+			<Render renderLayerPrecedence="26" />
 		</Instance_12>
 		<Instance_13>
 			<Transform x="1136.000000" y="-14.000000" />
-			<Render renderLayerPrecedence="46" />
+			<Render renderLayerPrecedence="27" />
 		</Instance_13>
 		<Instance_14>
 			<Transform x="1049.000000" y="107.000000" />
-			<Render renderLayerPrecedence="47" />
+			<Render renderLayerPrecedence="28" />
 		</Instance_14>
 		<Instance_15>
 			<Transform x="842.000000" y="125.000000" />
-			<Render renderLayerPrecedence="48" />
+			<Render renderLayerPrecedence="29" />
 		</Instance_15>
 		<Instance_16>
 			<Transform x="785.000000" y="243.000000" />
-			<Render renderLayerPrecedence="49" />
+			<Render renderLayerPrecedence="30" />
 		</Instance_16>
 		<Instance_17>
 			<Transform x="1137.000000" y="253.000000" />
-			<Render renderLayerPrecedence="50" />
+			<Render renderLayerPrecedence="31" />
 		</Instance_17>
 		<Instance_18>
 			<Transform x="550.000000" y="309.000000" />
-			<Render renderLayerPrecedence="51" />
+			<Render renderLayerPrecedence="32" />
 		</Instance_18>
 		<Instance_19>
 			<Transform x="323.000000" y="187.000000" />
-			<Render renderLayerPrecedence="52" />
+			<Render renderLayerPrecedence="33" />
 		</Instance_19>
 		<Instance_20>
 			<Transform x="484.000000" y="36.000000" />
-			<Render renderLayerPrecedence="53" />
+			<Render renderLayerPrecedence="34" />
 		</Instance_20>
 		<Instance_21>
 			<Transform x="194.000000" y="-159.000000" />
-			<Render renderLayerPrecedence="54" />
+			<Render renderLayerPrecedence="35" />
 		</Instance_21>
 		<Instance_22>
 			<Transform x="109.000000" y="81.000000" />
-			<Render renderLayerPrecedence="55" />
+			<Render renderLayerPrecedence="36" />
 		</Instance_22>
 		<Instance_23>
 			<Transform x="49.000000" y="274.000000" />
-			<Render renderLayerPrecedence="56" />
+			<Render renderLayerPrecedence="37" />
 		</Instance_23>
 	</Rock1>
 </Entities>

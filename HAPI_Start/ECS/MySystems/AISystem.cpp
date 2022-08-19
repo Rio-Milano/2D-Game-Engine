@@ -102,7 +102,7 @@ void AISystem::UpdateComponent(const uint32_t& entityID, ECS_Engine& ecs, ECS_En
 			//loop nodes
 			for (std::vector<std::shared_ptr<Node>>& graphRow : this->m_graph.GetNodeGraph())
 			{
-				for (std::shared_ptr<Node> node : graphRow)
+				for (std::shared_ptr<Node>& node : graphRow)
 				{
 					//if node world position collides with entity collision rect
 					if (collisionComponent->m_Rect.IsPointLyingOnRect(node->m_worldPosition))
