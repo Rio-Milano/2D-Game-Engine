@@ -1,0 +1,7 @@
+#do not include these#
+
+.vs
+x64
+HAPI_Start/x64
+Code
+Demo

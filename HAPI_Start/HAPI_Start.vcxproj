@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ECS\MyScripts\BommerScript.cpp" />
+    <ClCompile Include="ECS\MyScripts\BulletScript.cpp" />
+    <ClCompile Include="ECS\MyScripts\SilverKnightScript.cpp" />
+    <ClCompile Include="ECS\MyScripts\WorldSpawnerScript.cpp" />
+    <ClCompile Include="ECS\MySystems\AISystem.cpp" />
+    <ClCompile Include="ECS\MyScripts\ButtonControllerScript.cpp" />
+    <ClCompile Include="ECS\MySystems\LifeSystem.cpp" />
+    <ClCompile Include="ECS\MySystems\SpawnerSystem.cpp" />
+    <ClCompile Include="GeneralObjects\Graph.cpp" />
+    <ClCompile Include="DataStructures\PriorityQueue.cpp" />
+    <ClCompile Include="Misc\WorldData.cpp" />
+    <ClCompile Include="Scenes\MyScenes\ConfigureScene.cpp" />
+    <ClCompile Include="Scenes\MyScenes\GameCycling.cpp" />
+    <ClCompile Include="Scenes\MyScenes\LevelEditorScene.cpp" />
+    <ClCompile Include="Scenes\MyScenes\SaveSelectionScene.cpp" />
+    <ClCompile Include="Scenes\MyScenes\MainMenu.cpp" />
+    <ClCompile Include="ECS\Base\ScriptAllocator.cpp" />
+    <ClCompile Include="Managers\SoundManager.cpp" />
+    <ClCompile Include="UI\UI Core\Widget.cpp" />
+    <ClCompile Include="UI\UI Widget\ButtonWidget.cpp" />
+    <ClCompile Include="Scenes\MyScenes\StartScene.cpp" />
+    <ClCompile Include="ECS\MyScripts\AlphaThingScript.cpp" />
+    <ClCompile Include="ECS\MyScripts\CameraScript.cpp" />
+    <ClCompile Include="ECS\MyScripts\PlayerScript.cpp" />
+    <ClCompile Include="ECS\Base\ComponentEngine.cpp" />
+    <ClCompile Include="ECS\Base\ECS_Engine.cpp" />
+    <ClCompile Include="ECS\Base\System.cpp" />
+    <ClCompile Include="ECS\MySystems\AnimationSystem.cpp" />
+    <ClCompile Include="ECS\MySystems\CollisionSystem.cpp" />
+    <ClCompile Include="ECS\MySystems\MovementSystem.cpp" />
+    <ClCompile Include="ECS\MySystems\SpriteSystem.cpp" />
+    <ClCompile Include="ECS\MySystems\TransformSystem.cpp" />
+    <ClCompile Include="ECS\MySystems\EventSystem.cpp" />
+    <ClCompile Include="ECS\MyScripts\TextElementInteractionResponseScript.cpp" />
+    <ClCompile Include="ECS\MyScripts\ListBoxWidgetSlideBarScript.cpp" />
+    <ClCompile Include="ECS\MySystems\EditorSystem.cpp" />
+    <ClCompile Include="UI\UI Widget\TextWidget.cpp" />
+    <ClCompile Include="UI\UI Widget\ListBoxWidget.cpp" />
+    <ClCompile Include="Managers\InputManager.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Core\Renderer.cpp" />
+    <ClCompile Include="DataStructures\Vector.cpp" />
+    <ClCompile Include="Managers\TextureManager.cpp" />
+    <ClCompile Include="GeneralObjects\Rect.cpp" />
+    <ClCompile Include="Managers\RenderManager.cpp" />
+    <ClCompile Include="ECS\MySystems\RenderSystem.cpp" />
+    <ClCompile Include="Scenes\MyScenes\MainScene.cpp" />
+    <ClCompile Include="Scenes\SceneCore\Scene.cpp" />
+    <ClCompile Include="Scenes\SceneCore\SceneManager.cpp" />
+    <ClCompile Include="Core\Visualisation.cpp" />
+    <ClCompile Include="ECS\MySystems\ScriptSystem.cpp" />
+    <ClCompile Include="ECS\MySystems\TextSystem.cpp" />
+    <ClCompile Include="UI\UI Core\UI_Manager.cpp" />
+    <ClCompile Include="Utils\Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ECS\MyComponents\AIComponent.h" />
+    <ClInclude Include="ECS\MyComponents\LifeComponent.h" />
+    <ClInclude Include="ECS\MyComponents\SpawnerComponent.h" />
+    <ClInclude Include="ECS\MyScripts\BommerScript.h" />
+    <ClInclude Include="ECS\MyScripts\BulletScript.h" />
+    <ClInclude Include="ECS\MyScripts\SilverKnightScript.h" />
+    <ClInclude Include="ECS\MyScripts\WorldSpawnerScript.h" />
+    <ClInclude Include="ECS\MySystems\AISystem.h" />
+    <ClInclude Include="ECS\MyScripts\ButtonControllerScript.h" />
+    <ClInclude Include="ECS\MySystems\LifeSystem.h" />
+    <ClInclude Include="ECS\MySystems\SpawnerSystem.h" />
+    <ClInclude Include="GeneralObjects\Graph.h" />
+    <ClInclude Include="DataStructures\PriorityQueue.h" />
+    <ClInclude Include="GeneralObjects\Node.h" />
+    <ClInclude Include="Misc\WorldData.h" />
+    <ClInclude Include="Scenes\MyScenes\GameCycling.h" />
+    <ClInclude Include="Scenes\MyScenes\ConfigureScene.h" />
+    <ClInclude Include="Scenes\MyScenes\LevelEditorScene.h" />
+    <ClInclude Include="Scenes\MyScenes\SaveSelectionScene.h" />
+    <ClInclude Include="Scenes\MyScenes\MainMenu.h" />
+    <ClInclude Include="ECS\Base\ScriptAllocator.h" />
+    <ClInclude Include="Managers\SoundManager.h" />
+    <ClInclude Include="UI\UI Widget\ButtonWidget.h" />
+    <ClInclude Include="Scenes\MyScenes\AllSceneHeadders.h" />
+    <ClInclude Include="Scenes\MyScenes\StartScene.h" />
+    <ClInclude Include="ECS\Base\Core_ECS_Assets.h" />
+    <ClInclude Include="ECS\MyComponents\AllComponentHeadders.h" />
+    <ClInclude Include="ECS\MyComponents\EditorComponent.h" />
+    <ClInclude Include="ECS\MyComponents\EventComponent.h" />
+    <ClInclude Include="ECS\MyScripts\AllScriptHeadders.h" />
+    <ClInclude Include="ECS\MyComponents\TextComponent.h" />
+    <ClInclude Include="ECS\MyScripts\AlphaThingScript.h" />
+    <ClInclude Include="ECS\MyScripts\CameraScript.h" />
+    <ClInclude Include="Core\Effects.h" />
+    <ClInclude Include="ECS\MyScripts\PlayerScript.h" />
+    <ClInclude Include="ECS\Base\BasesScript.h" />
+    <ClInclude Include="ECS\MyComponents\RenderComponent.h" />
+    <ClInclude Include="ECS\MyComponents\ScriptComponent.h" />
+    <ClInclude Include="ECS\MyComponents\TransformComponent.h" />
+    <ClInclude Include="ECS\MySystems\AllSystemHeadders.h" />
+    <ClInclude Include="ECS\MySystems\EventSystem.h" />
+    <ClInclude Include="ECS\MyScripts\TextElementInteractionResponseScript.h" />
+    <ClInclude Include="ECS\MyScripts\ListBoxWidgetSlideBarScript.h" />
+    <ClInclude Include="ECS\MySystems\EditorSystem.h" />
+    <ClInclude Include="UI\UI Widget\TextWidget.h" />
+    <ClInclude Include="UI\UI Core\UI_CoreHeadders.h" />
+    <ClInclude Include="UI\UI Widget\ListBoxWidget.h" />
+    <ClInclude Include="Managers\AllManagerHeadders.h" />
+    <ClInclude Include="Managers\InputManager.h" />
+    <ClInclude Include="Level\MyScenes\GameScene.h" />
+    <ClInclude Include="GeneralObjects\Sprite.h" />
+    <ClInclude Include="GeneralObjects\Texture.h" />
+    <ClInclude Include="ECS\Base\BaseComponent.h" />
+    <ClInclude Include="ECS\Base\ComponentEngine.h" />
+    <ClInclude Include="ECS\Base\ECS_Engine.h" />
+    <ClInclude Include="ECS\Base\System.h" />
+    <ClInclude Include="ECS\MyComponents\AnimationComponent.h" />
+    <ClInclude Include="ECS\MyComponents\CollisionComponent.h" />
+    <ClInclude Include="ECS\MyComponents\MovementComponent.h" />
+    <ClInclude Include="ECS\MyComponents\SpriteComponent.h" />
+    <ClInclude Include="ECS\MySystems\AnimationSystem.h" />
+    <ClInclude Include="ECS\MySystems\CollisionSystem.h" />
+    <ClInclude Include="ECS\MySystems\MovementSystem.h" />
+    <ClInclude Include="ECS\MySystems\SpriteSystem.h" />
+    <ClInclude Include="ECS\MySystems\TransformSystyem.h" />
+    <ClInclude Include="HAPIEngine\Macros\Colors.h" />
+    <ClInclude Include="HAPIEngine\Game Objects\StarEntity.h" />
+    <ClInclude Include="HAPIEngine\Core\WorldData.h" />
+    <ClInclude Include="Core\Renderer.h" />
+    <ClInclude Include="DataStructures\Vector.h" />
+    <ClInclude Include="Macros\Colors.h" />
+    <ClInclude Include="Managers\TextureManager.h" />
+    <ClInclude Include="GeneralObjects\Rect.h" />
+    <ClInclude Include="Managers\RenderManager.h" />
+    <ClInclude Include="ECS\MySystems\RenderSystem.h" />
+    <ClInclude Include="Level\MyScenes\Scene.h" />
+    <ClInclude Include="Level\Core\SceneManager.h" />
+    <ClInclude Include="Scenes\MyScenes\MainScene.h" />
+    <ClInclude Include="Scenes\SceneCore\Scene.h" />
+    <ClInclude Include="Scenes\SceneCore\SceneManager.h" />
+    <ClInclude Include="Scenes\SceneCore\Scene_enum.h" />
+    <ClInclude Include="Core\Visualisation.h" />
+    <ClInclude Include="ECS\MySystems\ScriptSystem.h" />
+    <ClInclude Include="ECS\MySystems\TextSystem.h" />
+    <ClInclude Include="UI\UI Widget\WidgetHeadders.h" />
+    <ClInclude Include="UI\UI Core\UI_Manager.h" />
+    <ClInclude Include="Utils\Utils.h" />
+    <ClInclude Include="UI\UI Core\Widget.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{F3EB5DF9-8ECE-4E23-98C7-B8956A9D8315}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>HAPI_Start</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>HAPI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>HAPI;C:\Program Files (x86)\Visual Leak Detector\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>HAPI_Debug.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Custom</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>HAPI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>HAPI;C:\Program Files (x86)\Visual Leak Detector\lib\Win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>HAPI_Debug64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>HAPI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>HAPI;C:\Program Files (x86)\Visual Leak Detector\lib\Win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>HAPI.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>HAPI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>HAPI;C:\Program Files (x86)\Visual Leak Detector\lib\Win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>HAPI64.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
